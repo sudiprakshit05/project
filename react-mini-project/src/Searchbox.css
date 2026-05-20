@@ -2,3 +2,13 @@
     margin-bottom: 25px;
     text-align: center;
 }
+.inputbox{
+    background-color: #eeeef4;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    color: black;
+    transition: 0.3s; /* LIGHT MODE */
+}
+body.dark-mode .inputbox{
+    background-color: #eeeef4;
+    color: white;
+}

@@ -1,6 +1,7 @@
 import Infobox from "./infobox"
 import Searchbox from "./Searchbox"
 import { useState } from "react"
+import "./Weatherapp.css"
 
 export default function Weatherapp() {
     const [weatherInfo, setWeatherInfo] = useState({
@@ -19,7 +20,7 @@ export default function Weatherapp() {
 
     return (
         <div>
-            <h1>Nimbus</h1>
+            <h1 className="app-title">Nimbus</h1>
             <Searchbox updateinfo={updateinfo}/>           
             <Infobox info={weatherInfo} />
         </div>

@@ -6,12 +6,14 @@ import Searchbox from './Searchbox'
 import Infobox from './infobox'
 import Weatherapp from './Weatherapp'
 import './App.css'
+import Navbar from './Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+      <Navbar />
       <Weatherapp />
     </>
   )

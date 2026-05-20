@@ -1,0 +1,8 @@
+.app-title{
+    color: black;
+  transition: 0.3s; /* LIGHT MODE */
+}
+body.dark-mode .app-title{
+    color: white;
+
+}

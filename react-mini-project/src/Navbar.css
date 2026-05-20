@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  transition: 0.3s;
+}
+
+/* LIGHT MODE */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* DARK MODE */
+body.dark-mode {
+  background-color: #121212;
+  color: rgb(10, 247, 133);
+}
+
+.navbar {
+  height: 70px;
+  background-color: #1e1e2f;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 40px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+.theme-btn {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
